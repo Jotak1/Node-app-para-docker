@@ -6,4 +6,6 @@ COPY package*.json ./
 
 COPY . .
 
+npm ci
+
 CMD [ "node", "index.js" ]
