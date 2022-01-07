@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/contact', (req, res) => {
-  res.json('{ title: 'Contact Page' });
+  res.json({ title: 'Contact Page' });
 });
 
 module.exports = router;
