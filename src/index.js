@@ -12,7 +12,7 @@ app.set('port', process.env.PORT || 3000);
 //app.use(morgan('dev'));
 
 // routes
-//app.use(require('./routes'));
+app.use(require('./routes'));
 
 // static files
 app.use(express.static('public')));
